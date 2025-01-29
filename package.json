@@ -1,0 +1,25 @@
+{
+  "name": "monorepo-beginners",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Repository to accompany \"Monorepos - A Beginners Guide\" course on Udemy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wissenstein/monorepo-beginners.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wissenstein/monorepo-beginners/issues"
+  },
+  "homepage": "https://github.com/wissenstein/monorepo-beginners#readme",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
