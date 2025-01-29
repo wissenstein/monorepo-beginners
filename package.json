@@ -20,6 +20,9 @@
   "workspaces": {
     "packages": [
       "packages/*"
+    ],
+    "nohoist": [
+      "**/lodash"
     ]
   }
 }
