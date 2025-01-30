@@ -9,5 +9,8 @@
   "scripts": {
     "start": "mdb",
     "build": "node ./index.js"
+  },
+  "devDependencies": {
+    "react": "^19.0.0"
   }
 }
